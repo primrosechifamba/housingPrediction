@@ -116,11 +116,11 @@ def  main():
     st.title('House Price Prediction Project')
 
     html_temp = """
-    <div style="background-color:#f63366;
+    <div style="background-color:#ff5733;
         border-radius: 25px;
         padding:5px">
     <h2 style="color:white;
-        text-align:center;">Lagos House Prices Prediciton ML APP</h2>
+        text-align:center;">Lagos House Prices Prediciton APP</h2>
     </div>
     """
     
@@ -161,7 +161,7 @@ def  main():
         result = predict_price(city,bedrooms,bathrooms,toilets,terraced,flat,self_contain)
     st.success('The price is {}'. format(result))
     if st.button('About'):
-        st.text('Adebo Dolapo')
+        st.text('Prim , Anesu , Omega, Rudo, Blessings ')
         
     
 if __name__=='__main__':
