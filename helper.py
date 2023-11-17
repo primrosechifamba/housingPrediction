@@ -116,7 +116,7 @@ def  main():
     st.title('House Price Prediction Project')
 
     html_temp = """
-    <div style="background-color:#ff5733;
+    <div style="background-color:#33caff;
         border-radius: 25px;
         padding:5px">
     <h2 style="color:white;
